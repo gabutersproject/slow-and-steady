@@ -6,16 +6,6 @@ A private chat app for your own computer. It talks to open-source models through
 
 You can try the whole interface in **Demo Mode** without installing a model.
 
-Hacktoberfest Week 3 write-up: [SUBMISSION.md](./SUBMISSION.md)
-
-<p align="center">
-  <img src="docs/screenshots/empty-chat.jpg" alt="Empty chat with suggested prompts" width="240" />
-  <img src="docs/screenshots/sidebar.jpg" alt="Sidebar with history and Demo Mode" width="240" />
-  <img src="docs/screenshots/settings.jpg" alt="Settings: appearance and inference" width="240" />
-</p>
-
-<p align="center"><sub>Chat · Menu · Settings</sub></p>
-
 ---
 
 ## What you need
@@ -91,9 +81,13 @@ Open **http://127.0.0.1:4747**. Choose **Start Demo** or **Connect Local AI**.
 
 ## Demo Mode
 
-No model required. Replies are scripted and clearly labelled that way.
+<p align="center">
+  <img src="docs/screenshots/empty-chat.jpg" alt="Empty chat with suggested prompts" width="240" />
+  <img src="docs/screenshots/sidebar.jpg" alt="Sidebar with history and Demo Mode" width="240" />
+  <img src="docs/screenshots/settings.jpg" alt="Settings: appearance and inference" width="240" />
+</p>
 
-Use it to click around: chat, history, rename, settings. Demo Mode never silently covers for a failed local model.
+<p align="center"><sub>Chat · Menu · Settings</sub></p>
 
 ---
 
