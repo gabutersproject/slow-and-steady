@@ -64,10 +64,10 @@ export function ConversationList() {
                   {conversation.title}
                 </button>
                 <div className="flex shrink-0 opacity-0 transition-opacity group-hover:opacity-100 focus-within:opacity-100">
-                  <IconButton label={`Rename \"${conversation.title}\"`} size="sm" onClick={() => setEditingId(conversation.id)}>
+                  <IconButton label={`Rename "${conversation.title}"`} size="sm" onClick={() => setEditingId(conversation.id)}>
                     <Pencil className="size-3.5" />
                   </IconButton>
-                  <IconButton label={`Delete \"${conversation.title}\"`} size="sm" tone="danger" onClick={() => setPendingDelete(conversation)}>
+                  <IconButton label={`Delete "${conversation.title}"`} size="sm" tone="danger" onClick={() => setPendingDelete(conversation)}>
                     <Trash2 className="size-3.5" />
                   </IconButton>
                 </div>
@@ -79,7 +79,7 @@ export function ConversationList() {
       <ConfirmDialog
         open={pendingDelete !== null}
         title="Delete this conversation?"
-        description={`\"${pendingDelete?.title ?? ''}\" and its ${pendingDelete?.message_count ?? 0} messages will be removed from the local database. This cannot be undone.`}
+        description={`"${pendingDelete?.title ?? ''}" and its ${pendingDelete?.message_count ?? 0} messages will be removed from the local database. This cannot be undone.`}
         confirmLabel="Delete"
         destructive
         onConfirm={async () => {
