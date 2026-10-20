@@ -134,5 +134,3 @@ Build slowly. Build reliably. Keep the intelligence open-source and the experien
 Judges read the DEV write-up most closely. Suggested opening line:
 
 > This is a submission for the [Hacktoberfest Open-Source AI Challenge: Week 3](https://dev.to/challenges/hacktoberfest-week3-2026-10-19): Slow and Steady.
-
-Then paste the sections **What I Built**, **Demo**, **How I Built It**, **Why Open Innovation Matters**, and **Prize Categories** above. Link the GitHub repo and this file.
