@@ -75,11 +75,7 @@ export function SettingsDialog({ open, onClose }: SettingsDialogProps) {
                     key={option.id}
                     type="button"
                     onClick={() => setTheme(option.id as Theme)}
-                    className={`flex items-center justify-center gap-2 rounded-xl border px-3 py-2 text-sm ${
-                      active
-                        ? 'border-moss-400 bg-moss-50 text-moss-900 dark:border-moss-600 dark:bg-moss-950 dark:text-moss-100'
-                        : 'hover:bg-[var(--surface-sunken)]'
-                    }`}
+                    className={`flex items-center justify-center gap-2 rounded-xl border px-3 py-2 text-sm ${active ? 'border-moss-400 bg-moss-50 text-moss-900 dark:border-moss-600 dark:bg-moss-950 dark:text-moss-100' : 'hover:bg-[var(--surface-sunken)]'}`}
                   >
                     <Icon className="size-4" />
                     {option.label}
