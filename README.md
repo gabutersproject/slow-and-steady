@@ -8,6 +8,14 @@ You can try the whole interface in **Demo Mode** without installing a model.
 
 Hacktoberfest Week 3 write-up: [SUBMISSION.md](./SUBMISSION.md)
 
+<p align="center">
+  <img src="docs/screenshots/empty-chat.jpg" alt="Empty chat with suggested prompts" width="240" />
+  <img src="docs/screenshots/sidebar.jpg" alt="Sidebar with history and Demo Mode" width="240" />
+  <img src="docs/screenshots/settings.jpg" alt="Settings: appearance and inference" width="240" />
+</p>
+
+<p align="center"><sub>Chat · Menu · Settings</sub></p>
+
 ---
 
 ## What you need
@@ -138,6 +146,7 @@ Network is used for `npm install` / `pip install`, and for `ollama pull` if you 
 frontend/    React + Vite + Tailwind
 backend/     FastAPI + SQLite + Demo/Ollama providers
 scripts/     start helpers
+docs/        screenshots
 ```
 
 ---
